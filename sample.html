@@ -70,5 +70,48 @@
     </tr>
 
 </table>
+
+<div id="form">
+    <h2>Sign in and order Sandwich</h2>
+    <form action="" method="get">
+
+        Username: <input type="text" name="q" placeholder="Username" size="20" maxlength="30" autofocus required > <br>
+        Password: <input type="password" name="password" placeholder="Password" size="20" maxlength="20" required> <br> <br>
+
+        <fieldset>
+            <legend>Sandwich</legend>
+            <input type="checkbox" name="tomatoes" value="yes" id="tomatoes"> <label for="tomatoes">Tomatoes</label><br>
+            <input type="checkbox" name="Onions" value="yes" id="Onions"> <label for="Onions">Onions</label><br> 
+            <input type="checkbox" name="Swiss Cheese" value="no" id="scheese"><label for="scheese">Swiss Cheese</label><br> <br>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Bread</legend>
+            <input type="radio" value="Yes" name="bread" id="white"><br>
+            <label for="white">White bread</label><br>
+            <input type="radio" value="Yes" name="bread" id="brown"><br>
+            <label for="brown">Brown bread</label><br>
+            <input type="radio" value="Yes" name="bread" id="italian"><br>
+            <label for="italian">Italian bread</label>
+        </fieldset><br> <br>
+
+        Quantity: 
+        <select name="quantity" id="quant">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+        </select>
+        <br> <br>
+
+        Notes: <br>
+        <textarea name="Notes" id="notes" cols="50" maxlength="100" rows="10" placeholder="Notes to the Chef"></textarea> <br> <br>
+
+        <input type="submit" name="Order Sandwich">
+        <input type="reset" name="Clear the form">
+
+    </form>
+</div>
+
 </body>
 </html>   
